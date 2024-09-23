@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Navigation from "./Navigation";
 
-export default function Example() {
+export default function AboutUs() {
     return (
-        <div>
-            <Link to="/">Home</Link> <br />
-            <Link to="/about-us">About Us</Link> <br />
-            <Link to="/contact-us">Contact Us</Link> <br />
-            <h1>Hello 2</h1>
+        <div className="about-us">
+            <Navigation />
+            <h1>About Us</h1>
+            <p>Learn more about us here.</p>
         </div>
     );
 }
