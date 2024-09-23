@@ -1,16 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
 
 import Example from "./Example";
+import AboutUs from "./AboutUs";
 
 export default function Routers() {
     return (
-        <Route>
+        <Router>
             <Routes>
-                <Router path="/" element={<Example />} />
+                <Route path="/" element={<Example />} />
+                <Route path="about-us" element={<AboutUs />} />
             </Routes>
-        </Route>
+        </Router>
     );
 
 }

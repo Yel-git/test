@@ -6,7 +6,7 @@ export default function Example() {
         <div>
             <Link to="/">Home</Link> <br />
             <Link to="/about-us">About Us</Link> <br />
-            <h1>Hello!</h1>
+            <h1>Hello 2</h1>
         </div>
     );
 }
