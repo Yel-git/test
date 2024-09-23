@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router
 
 import Example from "./Example";
 import AboutUs from "./AboutUs";
+import ContactUs from "./ContactUs";
 
 export default function Routers() {
     return (
@@ -11,6 +12,7 @@ export default function Routers() {
             <Routes>
                 <Route path="/" element={<Example />} />
                 <Route path="about-us" element={<AboutUs />} />
+                <Route path="contact-us" element={<AboutUs />} />
             </Routes>
         </Router>
     );
