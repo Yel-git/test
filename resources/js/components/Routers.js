@@ -5,13 +5,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Example from "./Example";
 
 export default function Routers() {
-    return {
-        <Router>
+    return (
+        <Route>
             <Routes>
-                <Route path="/" element={<Example />} />
+                <Router path="/" element={<Example />} />
             </Routes>
-        </Router>
-    };
+        </Route>
+    );
+
 }
 
 if (document.getElementById("root")) {
