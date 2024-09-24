@@ -1,45 +1,10 @@
-// aboutus.scss
 .about-us {
-    padding: 40px;
-    background-color: #ffffff;
-
+    background-color: #f9f9f9;
     h1 {
-        text-align: center;
-        color: $primary-color;
-        margin-bottom: 20px;
+        color: #444;
     }
-
-    .team {
-        display: flex;
-        justify-content: space-around;
-
-        .member {
-            text-align: center;
-            margin: 10px;
-
-            img {
-                border-radius: 50%;
-                width: 150px;
-                height: 150px;
-                margin-bottom: 10px;
-            }
-
-            h3 {
-                color: $text-color;
-            }
-        }
-    }
-
-    .mission {
-        background-color: $background-color;
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-        margin: 40px 0;
-
-        p {
-            font-size: 1.1em;
-            color: $text-color;
-        }
+    p {
+        font-size: 100px;
+        color: #33ff00;
     }
 }
